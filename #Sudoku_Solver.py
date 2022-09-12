@@ -11,8 +11,9 @@ board = [
             [".",".","9",".",".","5",".","1","3"],
             [".","4",".",".",".",".","5",".","."],
             ["7",".",".",".",".",".","8",".","."]
-        ]
+        ]      
 
+#hello world
 def convert(grid:list): #conversion function
     for row in grid: #access each row
         for column in row: #access each column within a row.
